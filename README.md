@@ -91,6 +91,10 @@ Now, let’s add all the packages the app needs:
 ## Home Page
 
 
+
+
+
+
 ![Home Page](public/HOME-PAGE.png)
 
 
@@ -99,6 +103,10 @@ Now, let’s add all the packages the app needs:
 
 
 ## Tools
+
+
+
+
 
 
 ![Tools](public/TOOLS.png)
