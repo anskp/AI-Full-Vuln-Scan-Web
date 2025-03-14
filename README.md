@@ -1,14 +1,4 @@
 
-#### How to Use:
-- Open the VS Code terminal.
-- Copy and paste the entire command above, then press Enter.
-- This will create (or overwrite) `README.md` with the full content, including the `#` heading for `<h1>` styling in Markdown.
-
----
-
-### Option 2: Node.js Script (Full Function)
-If you prefer a programmatic approach, here’s a Node.js script you can add to your project to generate the `README.md` file. This is a "full function" solution you can run in VS Code.
-
 1. **Create a Script File**  
    - In your `my-react-app` folder, create a file called `generateReadme.js` (you can do this in VS Code by right-clicking in the Explorer > `New File`).
 
@@ -97,6 +87,10 @@ Now, let’s add all the packages the app needs:
      npm start
      \`\`\`  
    - Your browser should open to \`http://localhost:3000\`. If it doesn’t, just type that in your browser!
+
+   **HOME PAGE** 
+
+    ![Alt text](HOME-PAGE.png)
 
 ## Using the App
 
