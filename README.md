@@ -90,8 +90,6 @@ Now, let’s add all the packages the app needs:
 
 ## HOME PAGE
 
-    ![Alt text](HOME-PAGE.png)
-
 ## Using the App
 
 - In the dashboard, type a URL or IP (like \`example.com\`).
