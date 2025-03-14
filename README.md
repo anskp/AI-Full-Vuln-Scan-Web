@@ -89,9 +89,18 @@ Now, let’s add all the packages the app needs:
    - Your browser should open to \`http://localhost:3000\`. If it doesn’t, just type that in your browser!
 
 ## Home Page
+
+
 ![Home Page](public/HOME-PAGE.png)
 
+
+
+![Home Page](public/HOME-PAGE-2.png)
+
+
 ## Tools
+
+
 ![Tools](public/TOOLS.png)
 
 ## Using the App
