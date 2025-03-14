@@ -1,7 +1,13 @@
-const fs = require('fs');
 
-function generateReadme() {
-  const content = `
+1. **Create a Script File**  
+   - In your `my-react-app` folder, create a file called `generateReadme.js` (you can do this in VS Code by right-clicking in the Explorer > `New File`).
+
+2. **Add This Code to `generateReadme.js`**  
+   ```javascript
+   const fs = require('fs');
+
+   function generateReadme() {
+     const content = `
 # Vulnerability Scanner Dashboard
 
 Welcome to the **Vulnerability Scanner Dashboard**! This is a fun React app you can run in VS Code to scan networks, find vulnerabilities, and see cool charts and a 3D map. It’s like a detective tool for checking websites or networks!
@@ -84,11 +90,23 @@ Now, let’s add all the packages the app needs:
 
 ## Home Page
 
+
+
+
+
 ![Home Page](public/HOME-PAGE.png)
+
+
 
 ![Home Page](public/HOME-PAGE-2.png)
 
+
 ## Tools
+
+
+
+
+
 
 ![Tools](public/TOOLS.png)
 
@@ -104,11 +122,11 @@ Now, let’s add all the packages the app needs:
 - **Errors?** Double-check you’re in the \`my-react-app\` folder in the terminal.
 - **Stuck?** Click the magnifying glass in VS Code’s sidebar to search for help!
 
-Have fun scanning in VS Code! 🚀 :)
-  `;
+Have fun scanning in VS Code! 🚀
+     `;
 
-  fs.writeFileSync('README.md', content.trim(), 'utf8');
-  console.log('README.md has been generated successfully!');
-}
+     fs.writeFileSync('README.md', content.trim(), 'utf8');
+     console.log('README.md has been generated successfully!');
+   }
 
-generateReadme();
+   generateReadme();
